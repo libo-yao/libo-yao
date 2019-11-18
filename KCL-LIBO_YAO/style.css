@@ -1,0 +1,123 @@
+/* Corlors and fonts */
+<head>
+
+<link href="style.css"rel="stylesheet">
+
+h1{
+	color: rgb(30,30,30); 
+	text-align: center;
+}
+h1,h2{
+	font-family: Helvetica
+	color: pink;
+}
+
+body{
+	background-color: rgb(220,220,220);
+	text-align: center;
+	font-family: 'Big Shoulders Text', cursive;
+}
+
+p{
+	font-size: 20px;
+	color: #d62196;
+}
+div{
+         border-top: 2xp solid red;
+         border-right: 3px dotted black;
+         broder-bottom: 2px dashed green;
+         border-left: 3xp botted black; 
+         background :white;
+         padding: 40x;
+         border-radius: 9px;
+         box-shadow: 0.15px 35px rgba(50, 50, 93, .1);
+         width 200px;
+         margin: 0 auto;
+
+}
+
+</head>
+
+/* Custom design with class (99% of your design*/
+.container{
+width: 700px:
+margin: 40px auto;
+
+}
+
+@media (max-width: 760px) {
+
+
+.container{
+
+width: 600px;
+
+
+}
+
+
+
+@media (max-width: 500px) {
+
+
+.container{
+
+width: 400px;
+
+
+}
+
+
+
+}
+
+
+
+
+.card red {
+
+   background-color: red;
+   padding: 40px;
+   box-shadow: 0px 10px 30px rgba(0,0,0.1);
+   border-radius: 4px;
+   margin: 20px 0px;
+   text-align: center;
+}
+
+.img-circle{
+    border-radius: 50%;
+
+}
+
+.btn-blue{
+   background-color: #6B72E1;
+   color: white;
+   padding: 3px 20px;
+
+
+}
+
+.list-inline li{
+display: inline;
+padding: 10px;
+}
+.list-inline i {
+font-size: 50px;
+color: rgba(230, 230, 230);
+
+
+}
+
+.list-inline i:hover{
+   font-size: 50px;
+   color: black);
+
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+ white-space: 5px
+
+}
+
+
